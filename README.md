@@ -11,8 +11,7 @@ grouped by namespace. There are two API endpoints used in this script:
 
 3. **Service Graph** – Provides service mesh metrics for a namespace.
    The script issues a POST request to `/api/data/namespaces/{namespace}/graph/service`
-   with a JSON payload containing optional `start_time` and
-   `end_time` fields (expressed as UNIX timestamps).  The endpoint is
+   with a JSON payload containing `start_time` and `end_time` entries.  The endpoint is
    designed to return time‑series data for various metrics related to service mesh
    interactions.  The script specifically extracts a total number of
    HTTP requests for the last 30 days. 
