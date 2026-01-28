@@ -191,7 +191,7 @@ CSV_FIELD_RENAME: Dict[str, str] = {
     "ddos_protection": "DDoS Protection",
     "malicious_user_detection": "Malicious User Detection",
     "malware_protection": "Malware Protection",
-    "http_requests": "HTTP Requests",
+    "http_requests": "HTTP Requests (Last 30 days)",
     "issues": "Issues",
 }
 
