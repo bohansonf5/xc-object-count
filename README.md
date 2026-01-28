@@ -24,7 +24,7 @@ request, following the official API documentation.
 
 Usage example::
 
-    python xc_object_count.py \
+    python xc-object-count.py \
       --base_url https://mytenant.console.ves.volterra.io \
       --api_token $API_TOKEN \
       --output xc_usage_counts.csv
