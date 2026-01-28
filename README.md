@@ -16,6 +16,12 @@ grouped by namespace. There are two API endpoints used in this script:
    interactions.  The script specifically extracts a total number of
    HTTP requests for the last 30 days. 
 
+All API requests require an API token obtained from the XC console
+under Administration → Personal Management → Credentials.  This token
+must be supplied via the ``--api_token`` argument.  The script adds
+the token to the ``Authorization: APIToken <token>`` header on every
+request, following the official API documentation.
+
 Usage example::
 
     python xc_namespace_inventory_requests.py \
