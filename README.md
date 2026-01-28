@@ -23,4 +23,3 @@ Usage example::
       --base_url https://mytenant.console.ves.volterra.io \
       --api_token $API_TOKEN \
       --output xc_usage_counts.csv
-"""
