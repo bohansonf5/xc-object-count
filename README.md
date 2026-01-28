@@ -1,8 +1,9 @@
 # xc-object-count
 
 This script collects billable object counts and HTTP request statistics
-from the F5 Distributed Cloud (XC) APIs. It will group these objects by 
-namespace. It leverages two endpoints:
+from the F5 Distributed Cloud (XC) APIs. All billable object counts are 
+grouped by namespace. It leverages two API endpoints from the F5 Distributed 
+Cloud Services API:
 
 1. **Application Inventory** – Provides a consolidated inventory of
    application objects within a namespace.  The script issues a POST
